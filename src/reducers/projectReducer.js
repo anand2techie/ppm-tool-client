@@ -1,7 +1,10 @@
 import { GET_PROJECTS, GET_PROJECT, DELETE_PROJECT } from "../actions/types";
 
 const initialState = {
+  // list of projects
   projects: [],
+
+  // ignore
   project: {},
 };
 
